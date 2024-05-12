@@ -5,8 +5,8 @@ const OrganizationIdPage = () => {
   const {userId, orgId} = auth()
   return (
     <div>
-      {/* OrganizationIdPage: {orgId} */}
-      <OrganizationSwitcher />
+      OrganizationIdPage: {orgId}
+      {/* <OrganizationSwitcher /> */}
     </div>
   );
 };
